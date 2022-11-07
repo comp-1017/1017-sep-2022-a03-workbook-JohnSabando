@@ -70,7 +70,6 @@ main{
 }
 footer{
     background-color:lightgrey;
-    height: 60px;
     display: flex;
 }
 /**
