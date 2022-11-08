@@ -1,25 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-<head>
-<title> on the page title tab</title>
-<meta charset="utf-8">
 
-<meta name="author" content="John Gabriel Sabando">
-<link href="css/reset.css" rel="stylesheet">
-<link href="css/styles.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="John Gabriel Sabando">
+    <title>css-flexbox</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <div class="container">
-<header>
+        <header>
+            <h1>Flexbox Wrapped Items</h1>
+        </header>
+        <main>
+            <div class="aside"></div>
+            <div>
+                <!--THe item within this div are NOT immedietely
+                use main
+                the item within this div are immedietly under 
+                the div
+                these items are not affected by the main flexbox
+                therefore these items are by default "Stacked"-->
+                <div class="blue"></div>
+                <div class="green"></div>
+            </div>
+           
+        </main>
+        <footer></footer>
+    </div>
+</body>
 
-</header>
-<main>
-
-  
-</main>
-<footer>
-
-</footer>
-</div>
-</body>    
 </html>
